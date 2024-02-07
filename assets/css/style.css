@@ -136,3 +136,31 @@ body {
   font-size: 20px;
 }
 
+/* Seccion Educacion */
+
+.educacion{
+  display: flex;
+}
+
+.educacion-1{
+  width: 50%;
+  padding: 100px 250px 100px 100px;
+  background-color: #f1ecd7;
+}
+
+.educacion-2{
+  background-image: url(../img/desafioLatam.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+}
+
+.educacion-3{
+  background-image: url(../img/euroamericano.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+}
+
