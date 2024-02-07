@@ -176,6 +176,17 @@ body {
 
 /* Seccion Experiencia */
 
+.titulo-experiencia{
+  background-color: #343a40;
+  text-align: center;
+  padding: 25px;
+}
+
+.titulo-experiencia h2{
+  color: #ffffff;
+  font-size: 55px;
+}
+
 .experiencia{
   display: flex;
 }
@@ -207,3 +218,64 @@ body {
   width: 50%;
 }
 
+/* Seccion de Informacion de contacto */
+
+.contacto{
+  padding: 50px 50px;
+  text-align: center;
+}
+
+.contacto h2{
+  font-size: 40px;
+  margin-bottom: 50px;
+  color: #323337;
+}
+
+.contacto-content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacto1{
+  display: flex;
+}
+
+.contacto1 i{
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.contacto1 .ct1{
+  color: #495057;
+}
+
+.contacto1 .ct2{
+  color: #0d6efd;
+}
+
+.contacto1 .ct3{
+  color: #dc3545;
+}
+
+.contacto1 p{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* Footer */
+
+.footer{
+  background-color: #343a40;
+  padding: 25px 0;
+}
+
+.footer-content{
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.footer-content i{
+  margin-top: 1px;
+  margin-right: 3px;
+}
