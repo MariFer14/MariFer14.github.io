@@ -139,25 +139,68 @@ body {
 /* Seccion Educacion */
 
 .educacion{
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../img/educacion.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 100px 0;
+}
+
+.educacion-content{
+  text-align: center;
+}
+
+.educacion-content h2{
+  font-size: 55px;
+  line-height: 70px;
+  color: #cbcbcb;
+  margin-bottom: 50px;
+}
+
+.educacion-group{
+  display: flex;
+  justify-content: space-between;
+}
+
+.educacion1{
+  color: #ffffff;
+  line-height: 25px;
+}
+
+.educacion1 i{
+  font-size: 50px;
+  color: #f1ecd7;
+  margin-bottom: 20px;
+}
+
+/* Seccion Experiencia */
+
+.experiencia{
   display: flex;
 }
 
-.educacion-1{
+.experiencia-1{
   width: 50%;
   padding: 100px 250px 100px 100px;
   background-color: #f1ecd7;
 }
 
-.educacion-2{
-  background-image: url(../img/desafioLatam.png);
-  background-position: center center;
+.experiencia-1{
+  line-height: 25px;
+}
+
+
+.experiencia-2{
+  background-image: url(../img/youtube-1.jpg);
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 50%;
 }
 
-.educacion-3{
-  background-image: url(../img/euroamericano.jpg);
+.experiencia-3{
+  background-image: url(../img/empresa.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
