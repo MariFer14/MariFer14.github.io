@@ -11,7 +11,21 @@ body {
 }
 
 .contenedor {
-  margin-top: 4rem;
+  margin-top: 6rem;
+}
+
+a{
+  text-decoration: none;
+  background-color: #f1ecd7;
+  color: #343a40;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: 500;
+}
+
+a:hover{
+  background-color: #343a40;
+  color: #f1ecd7;
 }
 
 .header {
@@ -34,13 +48,17 @@ body {
   color: #ffffff;
 }
 
-.titulo {
-  background-color: #f1ecd7;
+.titulo h2{
+  color: #f1ecd7;
   text-align: center;
+  margin-bottom: 2rem;
+  font-weight: 600;
 }
+
 
 .tarjeta {
   width: 25rem;
+  margin-bottom: 7rem;
 }
 
 .tarjeta .cuppon {
@@ -49,4 +67,28 @@ body {
 
 .tarjeta .pgweb {
   height: 223px;
+}
+
+.negrita{
+  font-weight: 600;
+}
+
+.footer{
+  background-color: #343a40;
+  padding: 8px 0;
+}
+
+.footer-content{
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.footer-content p{
+  margin-top: 15px;
+}
+
+.footer-content i{
+  margin-top: 18px;
+  margin-right: 3px;
 }
