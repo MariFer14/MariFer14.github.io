@@ -2,17 +2,51 @@
 
 body {
   font-family: "Raleway", sans-serif;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../img/bg-portafolio.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.contenedor {
+  margin-top: 4rem;
+}
+
+.header {
+  background-color: #343a40;
+  text-align: center;
+  padding: 20px 50px;
+}
+
+.header-container {
+  line-height: 30px;
+}
+
+.header-container h1 {
+  color: #f1ecd7;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.header-container p {
+  color: #ffffff;
+}
+
+.titulo {
   background-color: #f1ecd7;
+  text-align: center;
 }
 
-.carrusel{
-    width: 65%;
-    margin-top: 10rem;
-    margin-left: 20rem;
+.tarjeta {
+  width: 25rem;
 }
 
-.carrusel-txt h5{
-    background-color: #343a40;
-    color: #f1ecd7;
-    padding: 10px;
+.tarjeta .cuppon {
+  height: 195px;
+}
+
+.tarjeta .pgweb {
+  height: 223px;
 }
