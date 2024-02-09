@@ -84,61 +84,62 @@ body {
 
 /* Seccion habilidades */
 
-.habilidades{
+.habilidades {
   padding: 50px 0;
   background-color: #f1ecd7;
   position: relative;
 }
 
-.habilidades-content{
+.habilidades-content {
   text-align: center;
 }
 
-.habilidades-content h2{
+.habilidades-content h2 {
   font-size: 55px;
   line-height: 70px;
   color: #323337;
   margin-bottom: 5rem;
 }
 
-.hb-group{
+.hb-group {
   display: flex;
   justify-content: space-between;
 }
 
-.hb1 i{
+.hb1 i {
   font-size: 80px;
   margin-bottom: 20px;
 }
 
-.hbhtml{
+.hbhtml {
   color: #fc4b08;
 }
 
-.hbcss{
+.hbcss {
   color: #0d6efd;
 }
 
-.hbvideo{
+.hbvideo {
   color: #495057;
 }
 
-.hbpen{
+.hbpen {
   color: #ffc107;
 }
 
-.hbyoutube{
-  color:  #dc3545;
+.hbyoutube {
+  color: #dc3545;
 }
 
-.hb1 h3{
+.hb1 h3 {
   font-size: 20px;
 }
 
 /* Seccion Educacion */
 
-.educacion{
-  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../img/educacion.jpg);
+.educacion {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../img/educacion.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -146,28 +147,28 @@ body {
   padding: 100px 0;
 }
 
-.educacion-content{
+.educacion-content {
   text-align: center;
 }
 
-.educacion-content h2{
+.educacion-content h2 {
   font-size: 55px;
   line-height: 70px;
   color: #cbcbcb;
   margin-bottom: 50px;
 }
 
-.educacion-group{
+.educacion-group {
   display: flex;
   justify-content: space-between;
 }
 
-.educacion1{
+.educacion1 {
   color: #ffffff;
   line-height: 25px;
 }
 
-.educacion1 i{
+.educacion1 i {
   font-size: 50px;
   color: #f1ecd7;
   margin-bottom: 20px;
@@ -175,33 +176,32 @@ body {
 
 /* Seccion Experiencia */
 
-.titulo-experiencia{
+.titulo-experiencia {
   background-color: #343a40;
   text-align: center;
   padding: 25px;
 }
 
-.titulo-experiencia h2{
+.titulo-experiencia h2 {
   color: #ffffff;
   font-size: 55px;
 }
 
-.experiencia{
+.experiencia {
   display: flex;
 }
 
-.experiencia-1{
+.experiencia-1 {
   width: 50%;
   padding: 100px 250px 100px 100px;
   background-color: #f1ecd7;
 }
 
-.experiencia-1{
+.experiencia-1 {
   line-height: 25px;
 }
 
-
-.experiencia-2{
+.experiencia-2 {
   background-image: url(../img/youtube-1.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -209,7 +209,7 @@ body {
   width: 50%;
 }
 
-.experiencia-3{
+.experiencia-3 {
   background-image: url(../img/empresa.jpg);
   background-position: center center;
   background-repeat: no-repeat;
@@ -219,64 +219,168 @@ body {
 
 /* Seccion de Informacion de contacto */
 
-.contacto{
+.contacto {
   padding: 50px 50px;
   text-align: center;
 }
 
-.contacto h2{
+.contacto h2 {
   font-size: 40px;
   margin-bottom: 50px;
   color: #323337;
 }
 
-.contacto-content{
+.contacto-content {
   display: flex;
   justify-content: space-between;
 }
 
-.contacto1{
+.contacto1 {
   display: flex;
 }
 
-.contacto1 i{
+.contacto1 i {
   font-size: 20px;
   margin-right: 10px;
 }
 
-.contacto1 .ct1{
+.contacto1 .ct1 {
   color: #495057;
 }
 
-.contacto1 .ct2{
+.contacto1 .ct2 {
   color: #0d6efd;
 }
 
-.contacto1 .ct3{
+.contacto1 .ct3 {
   color: #dc3545;
 }
 
-.contacto1 p{
+.contacto1 p {
   font-size: 18px;
   font-weight: 600;
 }
 
 /* Footer */
 
-.footer{
+.footer {
   background-color: #343a40;
   padding: 25px 0;
 }
 
-.footer-content{
+.footer-content {
   display: flex;
   justify-content: center;
   color: #ffffff;
 }
 
-.footer-content i{
+.footer-content i {
   margin-top: 1px;
   margin-right: 3px;
 }
 
+@media (max-width: 576px) {
+  .header {
+    background-position: left top;
+    margin-top: 65px;
+    margin-bottom: -12rem;
+  }
 
+  .header-content p{
+    display: none;
+  }
+
+  .menu .navbar ul li {
+    display: none;
+  }
+
+  .menu img {
+    margin-left: 120px;
+  }
+
+  .habilidades {
+    padding: 50px 35px;
+  }
+
+  .habilidades-content h2 {
+    font-size: 45px;
+    margin-bottom: 3rem;
+  }
+
+  .hb1 i {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+
+  .hb1 h3 {
+    font-size: 15px;
+  }
+
+  .educacion {
+    background-attachment: scroll;
+  }
+
+  .educacion-content h2 {
+    font-size: 45px;
+    margin-bottom: 45px;
+  }
+
+  .educacion-group {
+    padding: 0 15px;
+  }
+
+  .educacion1{
+    padding: 0 10px;
+    line-height: 23px;
+  }
+
+  .educacion1 i {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+
+  .educacion1 p{
+    font-size: 10px;
+    line-height: 15px;
+  }
+
+  .educacion1 h3 {
+    font-size: 15px;
+  }
+
+  .educacion1 h4 {
+    font-size: 12px;
+  }
+
+  .titulo-experiencia h2{
+    font-size: 45px;
+  }
+
+  .experiencia{
+    flex-direction: column;
+  }
+
+  .experiencia-1{
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .experiencia-2, .experiencia-3{
+    display: none;
+  }
+
+  .contacto-content{
+    flex-direction: column;
+    margin-left: 5rem;
+  }
+
+  .contacto h2{
+    margin-bottom: 30px;
+  }
+
+  .contacto1{
+    margin-bottom: 20px;
+  }
+
+}
