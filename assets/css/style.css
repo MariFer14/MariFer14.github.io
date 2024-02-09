@@ -202,7 +202,8 @@ body {
 
 .experiencia-1 {
   width: 50%;
-  padding: 100px 250px 100px 100px;
+  text-align: center;
+  padding: 100px 100px 100px 100px;
   background-color: #f1ecd7;
 }
 
@@ -288,6 +289,104 @@ body {
   margin-right: 3px;
 }
 
+@media (max-width: 1350px) {
+  .header {
+    background-position: left top;
+    margin-top: 80px;
+    margin-bottom: -8rem;
+  }
+
+  .header-content h1 {
+    text-align: right;
+    margin-left: 25rem;
+    font-size: 45px;
+    padding: 0 40px;
+    margin-top: -10rem;
+    margin-bottom: 2rem;
+  }
+
+  .header-content p {
+    padding: 0 40px 0 0;
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .icono {
+    display: initial;
+  }
+
+  .menu .navbar li .portafolio {
+    margin-right: -5rem;
+  }
+
+  .menu .navbar .links {
+    display: none;
+  }
+
+  .habilidades-content h2 {
+    font-size: 45px;
+    margin-bottom: 3rem;
+  }
+
+  .hb-group {
+    padding: 0 40px;
+  }
+
+  .hb1 i {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+
+  .hb1 h3 {
+    font-size: 20px;
+  }
+
+  .educacion {
+    background-attachment: scroll;
+  }
+
+  .educacion-content h2 {
+    font-size: 45px;
+    margin-bottom: 45px;
+  }
+
+  .educacion-group {
+    padding: 0 25px;
+  }
+
+  .educacion1 {
+    padding: 0 10px;
+    line-height: 23px;
+  }
+
+  .educacion1 i {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+
+  .educacion1 p {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .educacion1 h3 {
+    font-size: 15px;
+  }
+
+  .educacion1 h4 {
+    font-size: 13px;
+  }
+
+  .titulo-experiencia h2 {
+    font-size: 45px;
+  }
+
+  .experiencia-1 {
+    padding: 30px;
+    text-align: center;
+  }
+}
+
 @media (max-width: 999px) {
   .header {
     background-position: left top;
@@ -300,7 +399,7 @@ body {
     margin-left: 25rem;
     font-size: 45px;
     padding: 0 40px;
-    margin-bottom: 11rem;
+    margin-bottom: 2rem;
   }
 
   .header-content p {
@@ -434,7 +533,7 @@ body {
   }
 
   .habilidades {
-    padding: 50px 35px;
+    padding: 50px 5px;
   }
 
   .habilidades-content h2 {
@@ -548,7 +647,7 @@ body {
   }
 
   .habilidades {
-    padding: 50px 35px;
+    padding: 50px 5px;
   }
 
   .habilidades-content h2 {
