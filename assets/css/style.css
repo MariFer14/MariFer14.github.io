@@ -65,6 +65,15 @@ body {
   color: #939699;
 }
 
+.icono {
+  width: 40px;
+  background-color: #ffffff;
+  padding: 5px;
+  border-radius: 10px;
+  margin-bottom: -2rem;
+  display: none;
+}
+
 .header-content h1 {
   font-size: 75px;
   text-align: right;
@@ -279,15 +288,141 @@ body {
   margin-right: 3px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 999px) {
+  .header {
+    background-position: left top;
+    margin-top: 75px;
+    margin-bottom: -13rem;
+  }
+
+  .header-content h1 {
+    text-align: right;
+    margin-left: 25rem;
+    font-size: 45px;
+    padding: 0 40px;
+    margin-bottom: 11rem;
+  }
+
+  .header-content p {
+    display: none;
+  }
+
+  .icono {
+    display: initial;
+  }
+
+  .menu .navbar li .portafolio {
+    margin-right: -5rem;
+  }
+
+  .menu .navbar .links {
+    display: none;
+  }
+
+  .habilidades {
+    padding: 50px 35px;
+  }
+
+  .habilidades-content h2 {
+    font-size: 45px;
+    margin-bottom: 3rem;
+  }
+
+  .hb1 i {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+
+  .hb1 h3 {
+    font-size: 20px;
+  }
+
+  .educacion {
+    background-attachment: scroll;
+  }
+
+  .educacion-content h2 {
+    font-size: 45px;
+    margin-bottom: 45px;
+  }
+
+  .educacion-group {
+    padding: 0 15px;
+  }
+
+  .educacion1 {
+    padding: 0 10px;
+    line-height: 23px;
+  }
+
+  .educacion1 i {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+
+  .educacion1 p {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .educacion1 h3 {
+    font-size: 15px;
+  }
+
+  .educacion1 h4 {
+    font-size: 13px;
+  }
+
+  .titulo-experiencia h2 {
+    font-size: 45px;
+  }
+
+  .experiencia {
+    flex-direction: column;
+  }
+
+  .experiencia-1 {
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .experiencia-2,
+  .experiencia-3 {
+    display: none;
+  }
+
+  .contacto-content {
+    flex-direction: column;
+    margin-left: 16rem;
+  }
+
+  .contacto h2 {
+    margin-bottom: 30px;
+  }
+
+  .contacto1 {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
   .header {
     background-position: left top;
     margin-top: 65px;
     margin-bottom: -12rem;
   }
 
-  .header-content p{
+  .header-content h1 {
     display: none;
+  }
+
+  .header-content p {
+    display: none;
+  }
+
+  .icono {
+    display: initial;
   }
 
   .menu .navbar ul li {
@@ -329,7 +464,7 @@ body {
     padding: 0 15px;
   }
 
-  .educacion1{
+  .educacion1 {
     padding: 0 10px;
     line-height: 23px;
   }
@@ -339,7 +474,7 @@ body {
     margin-bottom: 10px;
   }
 
-  .educacion1 p{
+  .educacion1 p {
     font-size: 10px;
     line-height: 15px;
   }
@@ -352,35 +487,149 @@ body {
     font-size: 12px;
   }
 
-  .titulo-experiencia h2{
+  .titulo-experiencia h2 {
     font-size: 45px;
   }
 
-  .experiencia{
+  .experiencia {
     flex-direction: column;
   }
 
-  .experiencia-1{
+  .experiencia-1 {
     width: 100%;
     padding: 30px;
     text-align: center;
   }
 
-  .experiencia-2, .experiencia-3{
+  .experiencia-2,
+  .experiencia-3 {
     display: none;
   }
 
-  .contacto-content{
+  .contacto-content {
+    flex-direction: column;
+    margin-left: 10rem;
+  }
+
+  .contacto h2 {
+    margin-bottom: 30px;
+  }
+
+  .contacto1 {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .header {
+    background-position: left top;
+    margin-top: 65px;
+    margin-bottom: -12rem;
+  }
+
+  .header-content h1 {
+    display: none;
+  }
+
+  .header-content p {
+    display: none;
+  }
+
+  .icono {
+    display: initial;
+  }
+
+  .menu .navbar ul li {
+    display: none;
+  }
+
+  .menu img {
+    margin-left: 120px;
+  }
+
+  .habilidades {
+    padding: 50px 35px;
+  }
+
+  .habilidades-content h2 {
+    font-size: 45px;
+    margin-bottom: 3rem;
+  }
+
+  .hb1 i {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+
+  .hb1 h3 {
+    font-size: 15px;
+  }
+
+  .educacion {
+    background-attachment: scroll;
+  }
+
+  .educacion-content h2 {
+    font-size: 45px;
+    margin-bottom: 45px;
+  }
+
+  .educacion-group {
+    padding: 0 15px;
+  }
+
+  .educacion1 {
+    padding: 0 10px;
+    line-height: 23px;
+  }
+
+  .educacion1 i {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+
+  .educacion1 p {
+    font-size: 10px;
+    line-height: 15px;
+  }
+
+  .educacion1 h3 {
+    font-size: 15px;
+  }
+
+  .educacion1 h4 {
+    font-size: 12px;
+  }
+
+  .titulo-experiencia h2 {
+    font-size: 45px;
+  }
+
+  .experiencia {
+    flex-direction: column;
+  }
+
+  .experiencia-1 {
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .experiencia-2,
+  .experiencia-3 {
+    display: none;
+  }
+
+  .contacto-content {
     flex-direction: column;
     margin-left: 5rem;
   }
 
-  .contacto h2{
+  .contacto h2 {
     margin-bottom: 30px;
   }
 
-  .contacto1{
+  .contacto1 {
     margin-bottom: 20px;
   }
-
 }
