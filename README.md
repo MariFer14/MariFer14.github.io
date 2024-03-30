@@ -1,4 +1,6 @@
-# MariFer14.github.io
+# CurriculumVitae-MariFer14.github.io
+
+Este trabajo es de índole académico, del módulo Introduccion a HTML en mi paso por la Academia Desafío Latam.
 
 Repositorios forkeados y se les hizo el commits:
 
@@ -7,8 +9,6 @@ Usuario: Makaosva
 
 Nombre: Claudio Poblete
 Usuario: claudio-poblete
-
-Este trabajo es de índole académico, del módulo Introduccion a HTML en mi paso por la Academia Desafío Latam.
 
 ## Descripción 
 
